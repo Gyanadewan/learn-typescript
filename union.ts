@@ -5,3 +5,10 @@ function printId(id: string | number): void {
 
 printId(101);
 printId("ABC");
+
+
+
+
+type Status = "success" | "error" | "loading";
+
+let currentStatus: Status = "error";

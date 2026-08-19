@@ -1,4 +1,6 @@
 "use strict";
-let method = "card";
-//  let  method2: PaymentMethod = "bank" // error dibe 
-console.log(method);
+const order = {
+    id: 5,
+    method: "card"
+};
+console.log(order);
